@@ -1,0 +1,97 @@
+RUN
+
+
+I/info: 3
+I/info: 4
+I/info: 0
+E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: net.svetoven.swetko.connect3, PID: 7444
+    java.lang.IllegalStateException: Could not execute method for android:onClick
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:389)
+        at android.view.View.performClick(View.java:5646)
+        at android.view.View$PerformClick.run(View.java:22473)
+        at android.os.Handler.handleCallback(Handler.java:761)
+        at android.os.Handler.dispatchMessage(Handler.java:98)
+        at android.os.Looper.loop(Looper.java:156)
+        at android.app.ActivityThread.main(ActivityThread.java:6523)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832)
+     Caused by: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:384)
+        at android.view.View.performClick(View.java:5646) 
+        at android.view.View$PerformClick.run(View.java:22473) 
+        at android.os.Handler.handleCallback(Handler.java:761) 
+        at android.os.Handler.dispatchMessage(Handler.java:98) 
+        at android.os.Looper.loop(Looper.java:156) 
+        at android.app.ActivityThread.main(ActivityThread.java:6523) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832) 
+     Caused by: java.lang.ClassCastException: android.support.v7.widget.GridLayout cannot be cast to android.widget.GridLayout
+        at net.svetoven.swetko.connect3.MainActivity.playAgain(MainActivity.java:72)
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:384) 
+        at android.view.View.performClick(View.java:5646) 
+        at android.view.View$PerformClick.run(View.java:22473) 
+        at android.os.Handler.handleCallback(Handler.java:761) 
+        at android.os.Handler.dispatchMessage(Handler.java:98) 
+        at android.os.Looper.loop(Looper.java:156) 
+        at android.app.ActivityThread.main(ActivityThread.java:6523) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832) 
+I/Process: Sending signal. PID: 7444 SIG: 9
+Application terminated.
+
+
+
+
+
+
+LOGCAST
+
+
+2018-11-07 21:28:42.403 7444-7444/net.svetoven.swetko.connect3 I/info: 3
+2018-11-07 21:28:43.343 7444-7444/net.svetoven.swetko.connect3 I/info: 4
+2018-11-07 21:28:44.415 7444-7444/net.svetoven.swetko.connect3 I/info: 0
+2018-11-07 21:28:45.824 7444-7444/net.svetoven.swetko.connect3 E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: net.svetoven.swetko.connect3, PID: 7444
+    java.lang.IllegalStateException: Could not execute method for android:onClick
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:389)
+        at android.view.View.performClick(View.java:5646)
+        at android.view.View$PerformClick.run(View.java:22473)
+        at android.os.Handler.handleCallback(Handler.java:761)
+        at android.os.Handler.dispatchMessage(Handler.java:98)
+        at android.os.Looper.loop(Looper.java:156)
+        at android.app.ActivityThread.main(ActivityThread.java:6523)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832)
+     Caused by: java.lang.reflect.InvocationTargetException
+        at java.lang.reflect.Method.invoke(Native Method)
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:384)
+        at android.view.View.performClick(View.java:5646) 
+        at android.view.View$PerformClick.run(View.java:22473) 
+        at android.os.Handler.handleCallback(Handler.java:761) 
+        at android.os.Handler.dispatchMessage(Handler.java:98) 
+        at android.os.Looper.loop(Looper.java:156) 
+        at android.app.ActivityThread.main(ActivityThread.java:6523) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832) 
+     Caused by: java.lang.ClassCastException: android.support.v7.widget.GridLayout cannot be cast to android.widget.GridLayout
+        at net.svetoven.swetko.connect3.MainActivity.playAgain(MainActivity.java:72)
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener.onClick(AppCompatViewInflater.java:384) 
+        at android.view.View.performClick(View.java:5646) 
+        at android.view.View$PerformClick.run(View.java:22473) 
+        at android.os.Handler.handleCallback(Handler.java:761) 
+        at android.os.Handler.dispatchMessage(Handler.java:98) 
+        at android.os.Looper.loop(Looper.java:156) 
+        at android.app.ActivityThread.main(ActivityThread.java:6523) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832) 
+2018-11-07 21:28:45.848 7444-7444/net.svetoven.swetko.connect3 I/Process: Sending signal. PID: 7444 SIG: 9
